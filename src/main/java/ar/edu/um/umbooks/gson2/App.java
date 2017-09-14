@@ -16,7 +16,7 @@ public class App
     		
     		
     		JSON resultado = new JSON();
-    		resultado = ConsultasLibros.getConsultaVolumen("j k rowling");
+    		resultado = ConsultasLibros.getConsultaVolumen("j rowling");
     		for (int i = 0; i < resultado.getItems().size(); i++) {
     			System.out.println(resultado.getItems().get(i).getVolumeInfo().getTitle());
 			}
