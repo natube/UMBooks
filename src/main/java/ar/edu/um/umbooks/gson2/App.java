@@ -14,7 +14,6 @@ public class App
     public static void main( String[] args ) throws MalformedURLException, JsonSyntaxException, JsonIOException  {
     	try {
     		
-    		
     		JSON resultado = new JSON();
     		resultado = ConsultasLibros.getConsultaVolumen("j rowling");
     		for (int i = 0; i < resultado.getItems().size(); i++) {
